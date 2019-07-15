@@ -1,0 +1,34 @@
+@import "bootstrap";
+
+.horse-html-body {
+  background-color: #FBFBFB;
+  padding-top: 15px;
+
+  section {
+    max-width: 700px;
+
+    article {
+      @extend .panel-body;
+      @extend .panel;
+      border-radius: 0px;
+      border-style: ridge;
+      border-width: 1px;
+      border-color: #D1C7C7;
+      background: linear-gradient(to right, #FFFAFA, #E5E1E1);
+      padding:15px;
+    }
+
+    img {
+      @extend .pull-left;
+      @extend .img-rounded;
+      width: 65px;
+      height: 65px;
+      margin-right: 10px;
+    }
+
+    post-age {
+      @extend .pull-right;
+      color:#A9A8A6;
+    }
+  }
+}
